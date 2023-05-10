@@ -1,10 +1,8 @@
 @media screen and (max-width: 780px) {
   .nav {
     padding: 18px 25px;
-    
-  
   }
- 
+
   .nav-menu {
     position: fixed;
     top: 12%;
@@ -15,53 +13,56 @@
     flex-direction: column;
     justify-content: center;
     transition: 0.6s;
-    background-color: #262727;
-    border-radius: 10px 0px 0px 10px;    
+    background-color: #b7bbbb;
+    border-radius: 10px 0px 0px 10px;
   }
+  .nav ul li a {
+    font-size: 16px;
+    font-weight: 800;
+    color: #000000;
+    transition: all 0.5s;
+  }
+  .nav ul li a:hover {
+    color: rgba(0, 0, 0, 0.87);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.925);
+  }
+
   .btn-dark {
     padding-left: 229px;
   }
-  
+
   .nav-menu.ativo {
     right: 0;
     gap: 5rem;
-    
   }
-  
+
   .menu-mobile {
     display: block;
     z-index: 40;
   }
-  
-  .nav-item {
-    margin: 16px 0px;   
-  }
 
+  .nav-item {
+    margin: 16px 0px;
+  }
   .home {
     flex-direction: column-reverse;
+    
     justify-content: center;
-    padding: 10px;
-    gap: 5rem;
+    padding: 1px;  
   }
   .home .text-h1 {
-    font-size: 20px;;
-   
+    font-size: 20px;
   }
   .home .text-h4 {
     font-size: 20px;
-   
   }
-  .home-img {
-   
-    transform: translateX(0px);
-    animation: topdown 10s ease-in-out infinite;
-   
-  }
-  img {
-    width: 400px;
+
+  img {    
     height: 400px;
   }
-  .btn-dark {
-    
+
+  .home .text-h1 {
+    font-size: 60px;
   }
+  
 }

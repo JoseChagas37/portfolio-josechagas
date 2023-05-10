@@ -138,9 +138,7 @@ input[type="checkbox"] {
   text-transform: uppercase;
   color: var(--color-text);
 }
-.home span strong {
-  color: rgb(0, 0, 0);
-}
+
 
 .home-img {
   transform: translateX(0px);
