@@ -15,9 +15,7 @@
     justify-content: center;
     transition: 0.6s;
     background-color: #262727;
-    border-radius: 10px 0px 0px 10px;
-    
-    
+    border-radius: 10px 0px 0px 10px;    
   }
  
   .btn-dark {
@@ -35,9 +33,7 @@
   }
   
   .nav-item {
-    margin: 16px 0px;
-   
-   
+    margin: 16px 0px;   
   }
 
   .home {
@@ -46,7 +42,4 @@
     padding: 10px;
     gap: 5rem;
   }
-
-
-
 }
