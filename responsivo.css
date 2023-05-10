@@ -1,7 +1,8 @@
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 780px) {
   .nav {
-    padding: 18px 70px;
+    padding: 18px 25px;
     
+  
   }
  
   .nav-menu {
@@ -17,10 +18,10 @@
     background-color: #262727;
     border-radius: 10px 0px 0px 10px;    
   }
- 
   .btn-dark {
-    margin-left: 64%;
+    padding-left: 229px;
   }
+  
   .nav-menu.ativo {
     right: 0;
     gap: 5rem;
@@ -51,10 +52,16 @@
    
   }
   .home-img {
-    width: auto;
-    height: auto;
+   
     transform: translateX(0px);
     animation: topdown 10s ease-in-out infinite;
    
+  }
+  img {
+    width: 400px;
+    height: 400px;
+  }
+  .btn-dark {
+    
   }
 }
