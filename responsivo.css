@@ -43,8 +43,9 @@
     font-size: 20px;
   }
 
-  img {    
-    height: 400px;
+  .home-img img {    
+    width: 100%;
+    
   }
 
   .home .text-h1 {
