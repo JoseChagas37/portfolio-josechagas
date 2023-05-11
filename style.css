@@ -28,27 +28,35 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 70px;
   width: 100%;
-  padding: 18px 20%;
+  padding: 0 34px;
+  
   border-bottom: 1px solid var(--color-text);
   transition: all 0.5s;
 }
 .nav .logo {
   color: var(--color-text);
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 .logo span {
   color: var(--orange);
   font-family: 'Roboto', sans-serif;
 }
-.nav ul {
+.nav-menu {
   display: flex;
+
+  
+}
+.nav-menu ul {
+  display: flex;
+  
   align-items: center;
-  gap: 5rem;
+  gap: 60px;
 }
 
-.nav ul li a {
+.nav-menu a {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 500;
