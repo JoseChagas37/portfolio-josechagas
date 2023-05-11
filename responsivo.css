@@ -53,14 +53,15 @@
   }
 
   .home-img img {
-    width: 100%;
+    width: 50%;
   }  
 }
 
-@media (max-width:550px) {
+@media (max-width:380px) {
 
   .home-img img {
-    width: 320px;
+    width: 150px;
+    
     padding-bottom: 53px;
   }
   .text-h1 span{
