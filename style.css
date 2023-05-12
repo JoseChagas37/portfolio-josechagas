@@ -9,7 +9,8 @@
 }
 :root {
   --bg-color: #f0ededf8;
-  --bg-thema-dark: #273333;
+  --bg-theme-dark: #273333;
+  --color-text-dark: #fffdfd;
 
   --color-text: #070707;
 
@@ -51,7 +52,7 @@ span {
 }
 .nav-link:hover {
   color: var(--orange);
-  border-bottom: 2px solid var(--color-text);
+  border-bottom: 1px solid var(--color-text);
 }
 .hamburguer {
   display: none;
@@ -72,31 +73,35 @@ span {
 input[type="checkbox"] {
   display: none;
 }
-
 .dark,
 .dark header {
-  background-color: var(--bg-thema-dark);
+  background-color: var(--bg-theme-dark);
 }
 
 .dark h1 {
-  color: #fffdfd;
+  color: var(--color-text-dark);
 }
 .dark .nav-link {
-  color: #fffdfd;
+  color: var(--color-text-dark);
 }
-
 .dark .nav-link:hover {
   color: var(--orange);
-  border-bottom: 2px solid var(--color-text);
+  border-bottom: 1px solid var(--color-text-dark);
+}
+.dark .bar {
+  background-color: var(--color-text-dark);
+}
+.dark .navbar {
+  border-bottom: 1px solid var(--color-text-dark);
 }
 .dark .home-text h4 {
-  color: #fffdfd;
+  color: var(--color-text-dark);
 }
 .dark .home-text h1 {
-  color: #fffdfd;
+  color: var(--color-text-dark);
 }
 .dark .home-text span {
-  color: #fffdfd;
+  color: var(--color-text-dark);
 }
 
 .bi {
@@ -114,7 +119,7 @@ input[type="checkbox"] {
 }
 .dark .bi-moon-fill {
   display: block;
-  color: white;
+  color: var(--color-text-dark);
 }
 /*********************/
 
