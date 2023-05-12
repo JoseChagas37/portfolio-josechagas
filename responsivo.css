@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
   .hamburguer {
     display: block;
+    
   }
   .hamburguer.ativo .bar:nth-child(2) {
     opacity: 0;
@@ -14,6 +15,7 @@
   .navbar {
     padding: 0 34px;
   }
+  
   .nav-menu {
     position: fixed;
     right: -100%;
@@ -48,7 +50,6 @@
 
   .home {
     flex-direction: column-reverse;
-
     justify-content: center;
     padding: 1px;
   }
@@ -71,7 +72,7 @@
     font-size: 70px;
   }
   .home-text .text-h1 {
-    font-size: 55px;
+    font-size: 70px;
   }
   .btn-dark {
     padding-left: 50%;
@@ -79,7 +80,7 @@
 }
 
 
-@media (max-width: 410px) {
+@media (max-width: 420px) {
   .home {
     height: 100vh;
   }

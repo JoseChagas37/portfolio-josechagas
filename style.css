@@ -12,14 +12,13 @@
   --bg-thema-dark: #273333;
 
   --color-text: #070707;
-  
+
   --orange: #f28444;
-  
 }
 html,
 body {
   background: #f0ededf8;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   overflow: hidden;
 }
 
@@ -32,7 +31,6 @@ body {
   align-items: center;
   padding: 0 150px;
   border-bottom: 1px solid var(--color-text);
-
 }
 h1 {
   font-size: 2rem;
@@ -52,8 +50,8 @@ span {
   font-weight: bold;
 }
 .nav-link:hover {
- color: var(--orange);
- border-bottom: 2px solid  var(--color-text);
+  color: var(--orange);
+  border-bottom: 2px solid var(--color-text);
 }
 .hamburguer {
   display: none;
@@ -65,10 +63,9 @@ span {
   height: 3px;
   border-radius: 2px;
   margin: 5px auto;
-  background-color: var(--color-text);
+  background-color: #070707;
   transition: all 0.3s ease-in-out;
 }
-
 
 /****** thema dark *****/
 
@@ -77,12 +74,31 @@ input[type="checkbox"] {
 }
 
 .dark,
-.dark header
- {
+.dark header {
   background-color: var(--bg-thema-dark);
-
-  
 }
+
+.dark h1 {
+  color: #fffdfd;
+}
+.dark .nav-link {
+  color: #fffdfd;
+}
+
+.dark .nav-link:hover {
+  color: var(--orange);
+  border-bottom: 2px solid var(--color-text);
+}
+.dark .home-text h4 {
+  color: #fffdfd;
+}
+.dark .home-text h1 {
+  color: #fffdfd;
+}
+.dark .home-text span {
+  color: #fffdfd;
+}
+
 .bi {
   font-size: 20px;
   cursor: pointer;
@@ -98,13 +114,13 @@ input[type="checkbox"] {
 }
 .dark .bi-moon-fill {
   display: block;
+  color: white;
 }
 /*********************/
 
 /*** Conteudo Principal ***/
 
-.home{
-  
+.home {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -120,30 +136,27 @@ input[type="checkbox"] {
 }
 
 .home .text-h1 {
-  font-size: 85px;;
+  font-size: 85px;
   font-weight: 900;
   color: var(--color-text);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .home .text-h4 {
   font-size: 27px;
   color: var(--color-text);
-  font-family: 'Roboto', sans-serif;;
+  font-family: "Roboto", sans-serif;
 }
 .home .text-h1 span {
   color: var(--orange);
   animation: topdown 700ms;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .home span {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--color-text);
 }
-
-
-
 
 /*** modal ***/
 
@@ -173,7 +186,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #f7f4f473;
+  background-color: #707070f6;
   z-index: 5;
 }
 
@@ -198,11 +211,10 @@ button {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid;
-
 }
 .corpo-modal {
   font-size: 1.1rem;
-  color: rgb(248, 247, 247);
+  color: rgb(8, 8, 8);
 }
 
 #modal.hide,
@@ -267,7 +279,7 @@ button {
 
 #btn-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3px;
 }
 
@@ -306,5 +318,3 @@ button {
   grid-column: span 2;
   background-color: #3a91d8;
 }
-
-
