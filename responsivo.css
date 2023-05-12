@@ -1,7 +1,4 @@
-
-
-
-@media (max-width: 780px) {
+@media (max-width: 768px) {
   .hamburguer {
     display: block;
   }
@@ -29,8 +26,16 @@
     width: 90%;
     height: 90%;
     transition: 0.3s;
-   
   }
+  .nav-link {
+    transition: 0.5s ease;
+    color: #f8f1f1;
+    font-weight: 500;
+  }
+  .nav-link:hover {
+    color:  #f28444;
+    border-bottom: 2px solid  #f8f1f1;
+   }
   .btn-dark {
     padding-left: 59%;
   }
@@ -47,63 +52,46 @@
     justify-content: center;
     padding: 1px;
   }
-  
+
   .home .text-h4 {
     font-size: 20px;
   }
 
   .home-img img {
     width: 100%;
-  }  
-}
-@media (max-width:651px) {
-  .home-img img {
-    width: 380px;
-    
-    padding-bottom: 53px;
   }
-  .text-h1 span{
+}
+@media (max-width: 600px) {
+  .home{
+    height: 100vh;
+  }
+  
+ 
+  .text-h1 span {
     font-size: 70px;
   }
   .home-text .text-h1 {
-    font-size: 80px;
+    font-size: 55px;
   }
   .btn-dark {
-    padding-left: 55%;
-  }
-}
-@media (max-width:502px) {
-
-  .home-img img {
-    width: 313px;
-    
-    padding-bottom: 53px;
-  }
-  .text-h1 span{
-    font-size: 54px;
-  }
-  .home-text .text-h1 {
-    font-size: 54px;
-  }
-  .btn-dark {
-    padding-left: 42%;
+    padding-left: 50%;
   }
 }
 
 
-@media (max-width:410px) {
+@media (max-width: 410px) {
   .home {
-    height: 655px;
+    height: 100vh;
   }
   .nav-menu.ativo {
-  width: 90%;
+    width: 90%;
     height: 81%;
-}
+  }
   .home-img img {
     width: 185px;
     padding-bottom: 10px;
   }
-  .text-h1 span{
+  .text-h1 span {
     font-size: 54px;
   }
   .home-text .text-h1 {
