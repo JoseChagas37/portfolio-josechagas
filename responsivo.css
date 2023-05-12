@@ -91,12 +91,17 @@
 }
 
 
-@media (max-width:398px) {
-
+@media (max-width:410px) {
+  .home {
+    height: 655px;
+  }
+  .nav-menu.ativo {
+  width: 90%;
+    height: 81%;
+}
   .home-img img {
-    width: 207px;
-    
-    padding-bottom: 53px;
+    width: 185px;
+    padding-bottom: 10px;
   }
   .text-h1 span{
     font-size: 54px;
