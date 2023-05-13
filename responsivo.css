@@ -1,7 +1,6 @@
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .hamburguer {
     display: block;
-    
   }
   .hamburguer.ativo .bar:nth-child(2) {
     opacity: 0;
@@ -12,10 +11,10 @@
   .hamburguer.ativo .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
   .navbar {
-    padding: 0 34px;
+    padding: 0 20px;
   }
-  
   .nav-menu {
     position: fixed;
     right: -100%;
@@ -29,76 +28,93 @@
     height: 90%;
     transition: 0.3s;
   }
+  .nav-menu.ativo {
+    right: 0;
+  }
   .nav-link {
     transition: 0.5s ease;
     color: #f8f1f1;
     font-weight: 500;
   }
   .nav-link:hover {
-    color:  #f28444;
-    border-bottom: 2px solid  #f8f1f1;
-   }
+    color: #f28444;
+    border-bottom: 2px solid #f8f1f1;
+  }
   .btn-dark {
     padding-left: 59%;
   }
   .nav-item {
     margin: 16px 0;
   }
-  .nav-menu.ativo {
-    right: 0px;
-  }
 
   .home {
+    display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
-    padding: 1px;
+    justify-content: flex-end;
+    gap: 40px;
   }
-
-  .home .text-h4 {
-    font-size: 20px;
+  .home-text .text-h1 {
+    font-size: 68px;
   }
-
-  .home-img img {
-    width: 100%;
+  .home-text .text-h1 span {
+    font-size: 68px;
+  }
+  .home-text span {
+    font-size: 28px;
   }
 }
 @media (max-width: 600px) {
-  .home{
-    height: 100vh;
-  }
-  
- 
-  .text-h1 span {
-    font-size: 70px;
-  }
-  .home-text .text-h1 {
-    font-size: 70px;
-  }
   .btn-dark {
     padding-left: 50%;
   }
-}
-
-
-@media (max-width: 420px) {
   .home {
     height: 100vh;
+    gap: 10px;
+  }
+
+  .text-h1 span {
+    font-size: 61px;
+  }
+  .home-text .text-h1 {
+    font-size: 56px;
+  }
+  .home-text span {
+    font-size: 156%;
+  }
+}
+
+@media (max-width: 390px) {
+  .navbar {
+    padding: 0 10px;
+  }
+  .btn-dark {
+    padding-left: 35%;
+    
   }
   .nav-menu.ativo {
     width: 90%;
-    height: 81%;
+  }
+
+  .home {
+    height: 100vh;
+  }
+  .home-text {
+    width: 80%;
+  }
+  .home .text-h1 span {
+    font-size: 28px;
+  }
+  .home-text .text-h1 {
+    font-size: 28px;
+  }
+  .home .home-text h4 {
+    font-size: 16px;
+  }
+  .home-text span {
+    font-size: 13px;
   }
   .home-img img {
     width: 185px;
     padding-bottom: 10px;
-  }
-  .text-h1 span {
-    font-size: 54px;
-  }
-  .home-text .text-h1 {
-    font-size: 54px;
-  }
-  .btn-dark {
-    padding-left: 22%;
   }
 }
