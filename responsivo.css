@@ -57,11 +57,11 @@
   .home-text {
     width: 106%;
   }
- 
-  .home-text .text-h1  {
+
+  .home-text .text-h1 {
     display: flex;
     flex-direction: row;
-    
+
     font-size: 83px;
   }
   .home-text .text-h1 span {
@@ -72,29 +72,22 @@
   }
 }
 
-
-
-
 @media (max-width: 569px) {
-
   .nav-menu {
- 
-    
     width: 90%;
     height: 83%;
-    
   }
   .btn-dark {
     padding-left: 50%;
   }
   .home {
-    height: 100vh; 
+    height: 100vh;
   }
   .home-text {
     width: 106%;
   }
- 
-  .home-text .text-h1  {
+
+  .home-text .text-h1 {
     display: flex;
     flex-direction: row;
     font-size: 60px;
@@ -105,25 +98,30 @@
   .home-text span {
     font-size: 156%;
   }
-  
+  .corpo-modal #btn-container button {
+    height: 50px;
+    
+    color: rgb(8, 8, 8);
+  }
+  #tela {
+    font-size: 35px;
+  }
 }
 @media (max-width: 459px) {
   .btn-dark {
     padding-left: 35%;
   }
   .home {
-    height: 100vh; 
+    height: 100vh;
   }
   .home-text {
     width: 140%;
-   
   }
- 
-  .home-text .text-h1  {
+
+  .home-text .text-h1 {
     display: flex;
     flex-direction: row;
     font-size: 45px;
-   
   }
   .home-text .text-h1 span {
     font-size: 45px;
@@ -131,21 +129,22 @@
   .home-text span {
     font-size: 156%;
   }
-  
+  .corpo-modal #btn-container button {
+    height: 50px;
+    
+    color: rgb(8, 8, 8);
+  }
+  #tela {
+    font-size: 35px;
+  }
 }
 
-
-
-
 @media (max-width: 390px) {
- 
   .navbar {
     padding: 0 10px;
-   
   }
   .btn-dark {
     padding-left: 35%;
-    
   }
   .nav-menu.ativo {
     width: 90%;
@@ -160,11 +159,11 @@
   .home-text {
     width: 137%;
   }
- 
-  .home-text .text-h1  {
+
+  .home-text .text-h1 {
     display: flex;
     flex-direction: row;
-    
+
     font-size: 48px;
   }
   .home-text .text-h1 span {
@@ -176,5 +175,12 @@
   .home-text span {
     font-size: 13px;
   }
- 
+  .corpo-modal #btn-container button {
+    height: 50px;
+    
+    color: rgb(8, 8, 8);
+  }
+  #tela {
+    font-size: 35px;
+  }
 }
