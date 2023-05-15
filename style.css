@@ -132,7 +132,7 @@ input[type="checkbox"] {
   width: 100%;
   height: 100vh;
   padding: 72px 20%;
-  gap: 55px;
+ 
 }
 
 .home-text {
@@ -166,7 +166,7 @@ input[type="checkbox"] {
   color: var(--color-text);
 }
 .home-img img {
-  height: 496px;
+height: 600px;
 }
 
 /*** modal ***/

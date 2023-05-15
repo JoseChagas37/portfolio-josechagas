@@ -1,3 +1,4 @@
+
 @media (max-width: 780px) {
   .hamburguer {
     display: block;
@@ -70,6 +71,9 @@
   .home-text span {
     font-size: 28px;
   }
+  img {
+    height: 500px;
+  }
 }
 
 @media (max-width: 569px) {
@@ -81,7 +85,7 @@
     padding-left: 50%;
   }
   .home {
-    height: 100vh;
+    height: 100%;
   }
   .home-text {
     width: 106%;
@@ -100,7 +104,7 @@
   }
   .corpo-modal #btn-container button {
     height: 50px;
-    
+
     color: rgb(8, 8, 8);
   }
   #tela {
@@ -131,7 +135,7 @@
   }
   .corpo-modal #btn-container button {
     height: 50px;
-    
+
     color: rgb(8, 8, 8);
   }
   #tela {
@@ -154,8 +158,10 @@
     height: 80%;
   }
   .home {
-    gap: 10px;
+    height: 50%;
+    gap: -10px;
   }
+
   .home-text {
     width: 137%;
   }
@@ -177,10 +183,14 @@
   }
   .corpo-modal #btn-container button {
     height: 50px;
-    
+
     color: rgb(8, 8, 8);
   }
   #tela {
     font-size: 35px;
+  }
+
+  .home-img img {
+    height: 59%;
   }
 }
