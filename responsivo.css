@@ -52,7 +52,6 @@
     flex-direction: column-reverse;
     justify-content: flex-end;
     padding: 127px 157px;
-    
   }
 
   .home-text {
@@ -85,7 +84,7 @@
     padding-left: 50%;
   }
   .home {
-   padding: 69px 111px;
+    padding: 69px 111px;
   }
   .home-text {
     width: 106%;
@@ -161,7 +160,6 @@
   }
   .home {
     padding: 50px 41px;
-    
   }
 
   .home-text {
@@ -191,7 +189,4 @@
   #tela {
     font-size: 35px;
   }
-  
-
- 
 }
