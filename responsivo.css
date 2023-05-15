@@ -158,8 +158,9 @@
     height: 80%;
   }
   .home {
-    height: 50%;
-    gap: -10px;
+    height: 100vh;
+    padding: 47px 103px;
+    
   }
 
   .home-text {
@@ -189,8 +190,9 @@
   #tela {
     font-size: 35px;
   }
-
-  .home-img img {
-    height: 59%;
+  .home .home-img img {
+    width: 400px;
+    height: 400px;
   }
+ 
 }
