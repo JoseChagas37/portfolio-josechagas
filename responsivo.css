@@ -51,7 +51,8 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-end;
-    gap: 1px;
+    padding: 127px 157px;
+    
   }
 
   .home-text {
@@ -84,7 +85,7 @@
     padding-left: 50%;
   }
   .home {
-    height: 100%;
+   padding: 69px 111px;
   }
   .home-text {
     width: 106%;
@@ -115,12 +116,14 @@
     padding-left: 35%;
   }
   .home {
-    height: 100vh;
+    padding: 130px 64px;
   }
   .home-text {
-    width: 140%;
+    width: 93%;
   }
-
+  .home-text .text-h4 {
+    font-size: 20px;
+  }
   .home-text .text-h1 {
     display: flex;
     flex-direction: row;
@@ -130,7 +133,7 @@
     font-size: 45px;
   }
   .home-text span {
-    font-size: 156%;
+    font-size: 139%;
   }
   .corpo-modal #btn-container button {
     height: 50px;
@@ -157,12 +160,12 @@
     height: 80%;
   }
   .home {
-    height: 50%;
-    gap: -10px;
+    padding: 50px 41px;
+    
   }
 
   .home-text {
-    width: 137%;
+    width: 96%;
   }
 
   .home-text .text-h1 {
@@ -188,8 +191,7 @@
   #tela {
     font-size: 35px;
   }
+  
 
-  .home-img img {
-    height: 60%;
-  }
+ 
 }
