@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -17,13 +17,18 @@
   <body>
     <!--Cabeçalho e Links-->
     <header>
-      <nav class="nav">
-        <h1 class="logo"><span>Portfo</span>lio</h1>
-
+      <nav class="navbar">
+        <h1>Port<span>fólio</span></h1>
         <ul class="nav-menu">
-          <li id="sobre"><a class="nav-item" href="#">Quem sou</a></li>
-          <li id="projetos"><a class="nav-item" href="#">Meus projetos</a></li>
-          <li id="contato"><a class="nav-item" href="#">Contato</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" id="sobre">Sobre mim</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" id="projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" id="contato">Contato</a>
+          </li>
         </ul>
         <div class="btn-dark">
           <input type="checkbox" name="theme-dark" id="thema-dark" />
@@ -32,9 +37,10 @@
             <i class="bi bi-moon-fill"></i>
           </label>
         </div>
-
-        <div class="menu-mobile">
-          <i class="bi bi-distribute-vertical"></i>
+        <div class="hamburguer">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
       </nav>
     </header>
@@ -45,11 +51,11 @@
         <div class="home-text">
           <h4 class="text-h4">Olá! Eu sou o</h4>
           <h1 class="text-h1"><span>José</span> Chagas</h1>
-          <span> Desenvolvedor <strong>Front-End</strong> </span>
+          <span> Desenvolvedor Front-End </span>
         </div>
 
         <div class="home-img">
-          <img src="imagens/josechagas (1).png" alt="imagem" />
+          <img src="imagens/josechagas4-removebg-preview.png" alt="imagem" />
         </div>
       </section>
     </main>
@@ -68,7 +74,7 @@
           </div>
           <div class="corpo-modal">
             <p>
-              Meu nome é    <b>José Chagas</b>, tenho 37 anos e estou a procura da
+              Meu nome é <b>José Chagas</b>, tenho 37 anos e estou a procura da
               minha primeira oportunidade como Desenvolvedor Front-End.
             </p>
 
@@ -89,19 +95,17 @@
             <i class="bi bi-x-circle"></i>
           </button>
         </div>
-        <div class="corpo-modal">        
+        <div class="corpo-modal">
           <div id="calc">
             <h3>Calculadora</h3>
             <div id="operations">
-              
               <div class="result" id="tela"></div>
             </div>
             <div id="btn-container">
-
               <button id="btn-ac" onclick="limpar()">AC</button>
-              
+
               <button onclick="backspace()">
-                <i class="bi bi-backspace-fill " style="color: #141414c4;"></i>
+                <i class="bi bi-backspace-fill" style="color: #141414c4"></i>
               </button>
               <button onclick="insert('/')">/</button>
 
@@ -125,7 +129,6 @@
               <button id="equal-btn" onclick="confirma()">=</button>
             </div>
           </div>
-         
         </div>
       </div>
     </section>
@@ -144,7 +147,8 @@
         <div class="corpo-modal">
           <div>
             <a href="https://contate.me/josechagas">
-              <i class="bi bi-whatsapp"> Whatsapp</i></a>
+              <i class="bi bi-whatsapp"> Whatsapp</i></a
+            >
           </div>
           <div>
             <i class="bi bi-telephone-fill"> (85) 9 85906724</i>

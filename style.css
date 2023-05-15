@@ -8,78 +8,102 @@
   list-style: none;
 }
 :root {
-  --bg-color: #5f5943;
-  --bg-thema-dark: #273333;
+  --bg-color: #f0ededf8;
+  --bg-theme-dark: #273333;
+  --color-text-dark: #fffdfd;
 
-  --color-text: #fff;
+  --color-text: #070707;
+
   --orange: #f28444;
-  
 }
 html,
 body {
-  background: var(--bg-color);
-  font-family: 'Open Sans', sans-serif;
+  background: #f0ededf8;
+  font-family: "Open Sans", sans-serif;
   overflow: hidden;
 }
 
 /******** Navigation ********/
 
-.nav {
+.navbar {
+  min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  padding: 18px 20%;
+  padding: 0 150px;
   border-bottom: 1px solid var(--color-text);
-  transition: all 0.5s;
 }
-.nav .logo {
+h1 {
+  font-size: 2rem;
   color: var(--color-text);
-  font-size: 1.7rem;
-  font-weight: 600;
 }
-.logo span {
+span {
   color: var(--orange);
-  font-family: 'Roboto', sans-serif;
 }
-.nav ul {
+.nav-menu {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 30px;
 }
-
-.nav ul li a {
-  font-family: "Roboto", sans-serif;
-  font-size: 17px;
-  font-weight: 500;
+.nav-link {
+  transition: 0.5s ease;
   color: var(--color-text);
-  transition: all 0.5s;
+  font-weight: bold;
 }
-.nav ul li a:hover {
+.nav-link:hover {
   color: var(--orange);
   border-bottom: 1px solid var(--color-text);
 }
-.menu-mobile {
-  cursor: pointer;
+.hamburguer {
   display: none;
-  z-index: 8;
-  
+  cursor: pointer;
 }
-.home-img img {
-  width: 100%;
+.bar {
+  display: block;
+  width: 28px;
+  height: 3px;
+  border-radius: 2px;
+  margin: 5px auto;
+  background-color: #070707;
+  transition: all 0.3s ease-in-out;
 }
-
 
 /****** thema dark *****/
 
 input[type="checkbox"] {
   display: none;
 }
-
 .dark,
 .dark header {
-  background-color: var(--bg-thema-dark);
+  background-color: var(--bg-theme-dark);
 }
+
+.dark h1 {
+  color: var(--color-text-dark);
+}
+.dark .nav-link {
+  color: var(--color-text-dark);
+}
+.dark .nav-link:hover {
+  color: var(--orange);
+  border-bottom: 1px solid var(--color-text-dark);
+}
+.dark .bar {
+  background-color: var(--color-text-dark);
+}
+.dark .navbar {
+  border-bottom: 1px solid var(--color-text-dark);
+}
+.dark .home-text h4 {
+  color: var(--color-text-dark);
+}
+.dark .home-text h1 {
+  color: var(--color-text-dark);
+}
+.dark .home-text span {
+  color: var(--color-text-dark);
+}
+
 .bi {
   font-size: 20px;
   cursor: pointer;
@@ -95,19 +119,20 @@ input[type="checkbox"] {
 }
 .dark .bi-moon-fill {
   display: block;
+  color: var(--color-text-dark);
 }
 /*********************/
 
 /*** Conteudo Principal ***/
 
-.home{
-  
+.home {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 100vh;
   padding: 72px 20%;
+  gap: -10px;
 }
 
 .home-text {
@@ -117,35 +142,31 @@ input[type="checkbox"] {
 }
 
 .home .text-h1 {
-  font-size: 85px;;
+  display: flex;
+  flex-direction: row;
+  font-size: 85px;
   font-weight: 900;
   color: var(--color-text);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .home .text-h4 {
   font-size: 27px;
   color: var(--color-text);
-  font-family: 'Roboto', sans-serif;;
+  font-family: "Roboto", sans-serif;
 }
 .home .text-h1 span {
   color: var(--orange);
   animation: topdown 700ms;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .home span {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--color-text);
 }
-.home span strong {
-  color: rgb(0, 0, 0);
-}
-
-.home-img {
-  transform: translateX(0px);
-  animation: topdown 10s ease-in-out infinite;
- 
+.home-img img {
+height: 700px;
 }
 
 /*** modal ***/
@@ -176,7 +197,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(48, 47, 47, 0.404);
+  background-color: #707070f6;
   z-index: 5;
 }
 
@@ -201,11 +222,10 @@ button {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid;
-
 }
 .corpo-modal {
   font-size: 1.1rem;
-  color: rgb(248, 247, 247);
+  color: rgb(8, 8, 8);
 }
 
 #modal.hide,
@@ -270,7 +290,7 @@ button {
 
 #btn-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 3px;
 }
 
@@ -309,5 +329,3 @@ button {
   grid-column: span 2;
   background-color: #3a91d8;
 }
-
-

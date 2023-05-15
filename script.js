@@ -52,12 +52,12 @@ const toggleModalContato = () => {
 
 // Menu Mobile //
 
-const menuMobile = document.querySelector( '.menu-mobile' );
-const navMenu = document.querySelector( '.nav-menu' );
+const menuHamburguer = document.querySelector( '.hamburguer');
+const navMenu = document.querySelector( '.nav-menu');
 
-menuMobile.addEventListener( 'click', () => {
-  menuMobile.classList.toggle( 'ativo' );
-  navMenu.classList.toggle( 'ativo' );
+menuHamburguer.addEventListener( 'click', () => {
+  menuHamburguer.classList.toggle('ativo');
+  navMenu.classList.toggle('ativo');
 });
 
 
