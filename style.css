@@ -18,7 +18,7 @@
 }
 html,
 body {
-  background: #f0ededf8;
+  background: #c9c7c7;
   font-family: "Open Sans", sans-serif;
   overflow: hidden;
 }
@@ -131,8 +131,8 @@ input[type="checkbox"] {
   align-items: center;
   width: 100%;
   height: 100vh;
-  padding: 72px 20%;
- 
+  padding: 50px 15%;
+  gap: -10px;
 }
 
 .home-text {
@@ -165,9 +165,7 @@ input[type="checkbox"] {
   text-transform: uppercase;
   color: var(--color-text);
 }
-.home-img img {
-height: 600px;
-}
+
 
 /*** modal ***/
 
