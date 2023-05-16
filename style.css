@@ -162,7 +162,7 @@ input[type="checkbox"] {
 }
 .home .text-h1 span {
   color: var(--orange);
-  animation: up 900ms;
+  
   font-family: "Roboto", sans-serif;
 }
 .home span {
@@ -173,9 +173,10 @@ input[type="checkbox"] {
 }
 .icons {
   font-size: 22px;
+  animation: up 900ms;
 }
 .home-img img {
-  animation: topdown 1s ease-in alternate infinite;
+  animation: topdown 2s ease-in alternate infinite;
 }
 
 /*** modal ***/
