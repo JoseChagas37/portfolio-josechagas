@@ -45,7 +45,9 @@
     border-bottom: 2px solid #f8f1f1;
   }
 
-  
+  .nav-item i {
+    display: block;
+  }
   .btn-dark {
     padding-left: 59%;
   }
