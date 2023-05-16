@@ -116,6 +116,10 @@
   #tela {
     font-size: 35px;
   }
+  .home-img img {
+    height: 402px;
+  }
+  
 }
 @media (max-width: 459px) {
   .btn-dark {
