@@ -10,8 +10,8 @@
 :root {
   --bg-color: #f0ededf8;
   --bg-theme-dark: #273333;
-  --color-text-dark: #fffdfd;
 
+  --color-text-dark: #faf8f8;
   --color-text: #070707;
 
   --orange: #f28444;
@@ -162,7 +162,7 @@ input[type="checkbox"] {
 }
 .home .text-h1 span {
   color: var(--orange);
-  animation: topdown 700ms;
+  animation: up 900ms;
   font-family: "Roboto", sans-serif;
 }
 .home span {
@@ -174,7 +174,9 @@ input[type="checkbox"] {
 .icons {
   font-size: 22px;
 }
-
+.home-img img {
+  animation: topdown 1s ease-in alternate infinite;
+}
 
 /*** modal ***/
 
@@ -255,20 +257,6 @@ i{
   top: 0;
 }
 
-@keyframes topdown {
-  0% {
-    opacity: 0;
-    transform: translatey(0);
-  }
-  60% {
-    transform: translatey(-60px);
-  }
-  100% {
-    opacity: 1;
-    transform: translatey(0);
-  }
-}
-
 /***** Calculadora *****/
 
 #calc {
@@ -340,3 +328,28 @@ i{
   grid-column: span 2;
   background-color: #3a91d8;
 }
+
+@keyframes topdown {
+  to {
+    transform: translatey(30px);
+  }
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+    transform: translatex(0);
+  }
+  60% {
+    transform: translatex(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
+
+
+
+

@@ -23,7 +23,6 @@
     border-radius: 10px 0 0 10px;
     background-color: rgb(0, 0, 0);
     justify-content: center;
-
     flex-direction: column;
     width: 90%;
     height: 90%;
@@ -78,7 +77,7 @@
   .home-text span {
     font-size: 28px;
   }
-  img {
+  .home-img img {
     height: 500px;
   }
 }
@@ -111,7 +110,6 @@
   }
   .corpo-modal #btn-container button {
     height: 50px;
-
     color: rgb(8, 8, 8);
   }
   #tela {
@@ -147,7 +145,6 @@
   }
   .corpo-modal #btn-container button {
     height: 50px;
-
     color: rgb(8, 8, 8);
   }
   #tela {
@@ -173,15 +170,12 @@
     height: 100vh;
     padding: 19px 75px;
   }
-
   .home-text {
     width: 100%;
   }
-
   .home-text .text-h1 {
     display: flex;
     flex-direction: row;
-
     font-size: 38px;
   }
   .home-text .text-h1 span {
@@ -195,16 +189,13 @@
   }
   .corpo-modal #btn-container button {
     height: 50px;
-
     color: rgb(8, 8, 8);
   }
   #tela {
     font-size: 35px;
   }
   .home .home-img img {
-    
     height: 368px;
     padding: 10px;
-    
   }
 }
