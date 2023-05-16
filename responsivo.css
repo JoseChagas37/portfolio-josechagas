@@ -171,7 +171,7 @@
   }
   .home {
     height: 100vh;
-    padding: 47px 90px;
+    padding: 19px 81px;
   }
 
   .home-text {
@@ -203,6 +203,7 @@
   }
   .home .home-img img {
     width: 400px;
-    height: 400px;
+    height: 381px;
+    
   }
 }
