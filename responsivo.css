@@ -27,6 +27,7 @@
     width: 90%;
     height: 90%;
     transition: 0.3s;
+    z-index: 2;
   }
 
   .nav-menu.ativo {
