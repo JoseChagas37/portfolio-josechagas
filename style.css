@@ -173,7 +173,7 @@ input[type="checkbox"] {
 }
 .icons {
   font-size: 22px;
-  animation: up 900ms;
+  animation: up 2s ease-in ;
 }
 .home-img img {
   animation: topdown 2s ease-in alternate infinite;
