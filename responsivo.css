@@ -37,7 +37,7 @@
     transition: 0.5s ease;
     color: #f8f1f1;
     display: flex;
-    gap: 10px;
+    gap: 19px;
     font-weight: 500;
   }
   .nav-link:hover {
@@ -95,7 +95,7 @@
     height: 100%;
   }
   .home-text {
-    width: 106%;
+    width: 109%;
   }
 
   .home-text .text-h1 {
@@ -119,7 +119,6 @@
   .home-img img {
     height: 402px;
   }
-  
 }
 @media (max-width: 459px) {
   .btn-dark {
